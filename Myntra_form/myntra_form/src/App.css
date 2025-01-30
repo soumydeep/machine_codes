@@ -1,0 +1,15 @@
+.heading-container{
+  display: flex;
+}
+.heading{
+  padding: 3px;
+  border: 1.5px solid black;
+}
+.tab-body{
+  padding: 20px;
+  text-align: center;
+  display: block;
+  border: 1.5px solid black;
+  height: 500px;
+  width: 500px;
+}
