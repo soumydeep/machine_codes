@@ -2,6 +2,7 @@
 function Interest(props){
     const interests=props.data.interests;
     const {data,setData}=props;
+    const error=props.error;
     function handleChange(event,name){
         interests.includes(name)?setData({...data,interests:interests.filter((value)=>value!=name)}):setData({...data,interests:[...interests,name]})
     }
@@ -41,6 +42,9 @@ function Interest(props){
                 ></input>
                 Javascript
             </label>
+        </div>
+        <div>
+        {error.interests &&<span className="error-container">{error.interests}</span>}
         </div>
         </>
     );
