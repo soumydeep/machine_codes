@@ -1,0 +1,36 @@
+
+
+.search_heading{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: large;
+}
+.input_container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.result_container{
+  display: flex;
+  justify-content: center;
+ 
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  max-height: 500px;
+  width:400px;
+  overflow: scroll;
+
+}
+.result_data{
+
+  padding: 2px;
+  margin-left: 5px;
+}
+.result_data:hover{
+  background-color: bisque;
+}
